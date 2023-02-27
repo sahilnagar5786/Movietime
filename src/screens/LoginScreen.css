@@ -1,0 +1,83 @@
+.loginscreen{
+    position: relative;
+    height: 100%;
+    background: url("https://ceotudent.com/wp-content/uploads/2020/05/netflix-poster.jpg") center no-repeat;
+    background-size: cover;  
+}
+.login_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8)0,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+    );
+}
+
+.login_logo{
+    cursor: pointer;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 170px;
+    object-fit: contain;
+    padding: 20px;
+}
+.login_button{
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    border-radius:unset;
+    font-weight: 700;
+    background-color: #e50914;
+}
+.login_body{
+    display: block;
+    position: absolute;
+    top: 30%;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+.login_body >h1{
+    margin-bottom: 20px;
+    font-size: 3.125;
+}
+.login_body >h2{
+    font-size: 2rem;
+    font-weight: 350;
+    margin-bottom: 30px;
+}
+.login_body>h3{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.input_button{
+    height: 30px;
+    border-radius:unset;
+    font-weight: 650;
+    border: none;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    font-weight: 600;
+ }
+.login_input>form>input{
+    padding: 15px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.login_input{
+    margin: 20px;
+}
