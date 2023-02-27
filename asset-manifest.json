@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Movietime/static/css/main.b3d880c0.css",
+    "main.js": "/Movietime/static/js/main.e9b2a265.js",
+    "static/js/787.401d17c2.chunk.js": "/Movietime/static/js/787.401d17c2.chunk.js",
+    "static/media/Movietime1.png": "/Movietime/static/media/Movietime1.883fd39eb60aa47abe3e.png",
+    "index.html": "/Movietime/index.html",
+    "main.b3d880c0.css.map": "/Movietime/static/css/main.b3d880c0.css.map",
+    "main.e9b2a265.js.map": "/Movietime/static/js/main.e9b2a265.js.map",
+    "787.401d17c2.chunk.js.map": "/Movietime/static/js/787.401d17c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3d880c0.css",
+    "static/js/main.e9b2a265.js"
+  ]
+}
